@@ -1,6 +1,8 @@
-/* eslint-disable semi */
-/* eslint-disable prettier/prettier */
+import 'react-native-gesture-handler';
+
 import React from 'react';
+
+import { NavigationContainer } from '@react-navigation/native';
 
 import { StatusBar } from 'react-native'
 
@@ -11,7 +13,7 @@ import Routes from '~/routes';
 const App = () => (
     <>
         <StatusBar barStyle="light-content"  backgroundColor="#8B10AE" />
-        <Routes />
+            <Routes />
     </>
     );
 

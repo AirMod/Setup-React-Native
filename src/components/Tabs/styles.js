@@ -1,7 +1,7 @@
-/* eslint-disable prettier/prettier */
+import { Animated } from 'react-native'
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+export const Container = styled(Animated.View)`
   height: 100px;
   margin-top: 20px;
 `;
@@ -10,7 +10,7 @@ export const Container = styled.View`
 export const TabsContainer = styled.ScrollView.attrs({
         horizontal: true,
         contentContainerStyle: { paddingLeft: 10, paddingRight: 20 },
-        showsHorizontalSctrollIndicator: false,
+        showsHorizontalScrollIndicator: false,
 })``;
 
 export const TabItem = styled.View`
@@ -20,6 +20,7 @@ export const TabItem = styled.View`
     border-radius: 3px;
     margin-left: 10px;
     justify-content: space-between;
+    padding: 10px;
 `;
 
 export const TabText = styled.Text`

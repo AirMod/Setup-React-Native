@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable eol-last */
 import React from 'react';
 
 import {
@@ -8,14 +6,14 @@ import {
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import logo from '~/assets/img/Nubank_Logo.png';
+import logo from '../../assets/img/Nubank_Logo.png';
 
 export default function Header() {
   return (
     <Container>
       <Top>
         <Logo source={logo} />
-        <Title>Gutavo</Title>
+        <Title>Gustavo</Title>
       </Top>
       <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
     </Container>

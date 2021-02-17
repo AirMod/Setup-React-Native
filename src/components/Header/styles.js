@@ -1,6 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable eol-last */
-
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
